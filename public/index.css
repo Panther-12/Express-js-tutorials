@@ -1,0 +1,9 @@
+.content-wrapper{
+    transform: rotate(0deg,359deg);
+    background-color:grey;
+    width: 500px;
+    height: fit-content;
+}
+.content-wrapper>p{
+    margin-top: 20px;
+}
