@@ -22,6 +22,18 @@ app.get('/api/products',(req,res)=>{
     res.json(filteredproduct)
 })
 
+// find a specific product in a list
+app.get('/api/products/0',(req,res)=>{
+    const singleproduct = products.find((product)=> product.id === 0)
+    res.json(singleproduct)
+})
+
+// find single product other method
+app.get('/api/products/1',(req,res)=>{
+    const singleproduct = products[1]
+    res.json(singleproduct)
+})
+
 // start the server
 app.listen(5000,()=>{
     console.log('server is listening..........')
