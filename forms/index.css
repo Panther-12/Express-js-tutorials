@@ -1,0 +1,16 @@
+form {
+    position:absolute;
+    margin-top:10%;
+    margin-left:20%;
+    background-color:rgb(82, 82, 221);
+    width:600px;
+    height:405px;
+    padding:20px;
+    border-radius:10px;
+}
+form>.form-control{
+    margin-top:5px;
+}
+button{
+    margin-top:5px;
+}

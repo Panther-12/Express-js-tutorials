@@ -27,4 +27,12 @@ const people = [
     },
 ]
 
-module.exports = {products,people}
+const database = [
+    {
+        username:'nimrod',
+        email:'nimrodwalwe@gmail.com',
+        password:1788999,
+    }
+]
+
+module.exports = {products,people,database}
